@@ -1,3 +1,6 @@
+### config/index.js
+
+```js
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -74,3 +77,5 @@ module.exports = {
     bundleAnalyzerReport: process.env.npm_config_report 
   }
 }
+
+```
