@@ -86,7 +86,7 @@ module.exports = new Promise((resolve, reject) => {
         },
         onErrors: config.dev.notifyOnErrors
         ? utils.createNotifierCallback()
-        : undefined
+        : undefined  // 编译错误通知回调
       }))
 
       resolve(devWebpackConfig)
