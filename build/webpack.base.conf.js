@@ -56,7 +56,7 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,  // 处理图片图形的文件
         loader: 'url-loader', // 使用url-loader处理
         options: { 
-          limit: 10000, //图片小于10000字节时以base64的方式引用
+          limit: 10000, //图片小于10000B(字节)时以base64的方式引用
           name: utils.assetsPath('img/[name].[hash:7].[ext]') // 经由url-loader处理的文件，会被放置在img文件夹下，文件名后添加一个7位hash
         }
       },
