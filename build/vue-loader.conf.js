@@ -6,7 +6,9 @@ const sourceMapEnabled = isProduction
   ? config.build.productionSourceMap
   : config.dev.cssSourceMap
 
+// 是vue-loader的一些配置项
 module.exports = {
+  // 调用utils工具类生成样式loader的配置
   loaders: utils.cssLoaders({
     sourceMap: sourceMapEnabled,
     extract: isProduction
