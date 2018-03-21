@@ -1,10 +1,13 @@
 # vue2_config
 
-> A Vue.js project
+> 一个vue-cli创建项目webpack相关都配置合简介
 
 ## Build Setup
 
 ``` bash
+# git clone project
+git clone https://github.com/freeshineit/vue2_config.git
+
 # install dependencies
 npm install
 
