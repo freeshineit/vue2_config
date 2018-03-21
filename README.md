@@ -319,3 +319,6 @@ const webpackConfig = merge(baseWebpackConfig, {
 ```
 
 [build/webpack.prod.conf.js](https://github.com/freeshineit/vue2_config/tree/develop/README/build/webpack.prod.conf)
+
+
+具体vue2 使用可以观看[vue_config.pptx](https://github.com/freeshineit/vue2_config/blob/master/README/)
