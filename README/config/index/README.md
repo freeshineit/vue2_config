@@ -48,7 +48,7 @@ module.exports = {
 
   build: { // 生产环境配置项
     // Template for index.html
-    index: path.resolve(__dirname, '../dist/index.html'),  // 打包生成模版
+    index: path.resolve(__dirname, '../dist/index.html'),  // 打包生成模版路径
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'), // 打包根路径
@@ -67,7 +67,7 @@ module.exports = {
     // Surge or Netlify already gzip all static assets for you.
     // Before setting to `true`, make sure to:  在设置下面为 `true`,请确认执行下面指令
     // npm install --save-dev compression-webpack-plugin
-    productionGzip: false, // 是否开启 gzip
+    productionGzip: false, // 是否开启 gzip false 不开启
     productionGzipExtensions: ['js', 'css'], // 需要使用 gzip 压缩的文件扩展名
 
     // Run the build command with an extra argument to
